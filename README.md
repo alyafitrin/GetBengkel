@@ -31,13 +31,6 @@ B. Get Users GPS Locations
  
 ### App Deployment
 For this project deployment, i am using VM Instace as a compute engine for simple  and small configuration. It has been installed with python, Flask, and Tensorflow for process the machine learning that using TensorFlow Serving as deployment tools.
-* Command that i run for setting up the environment
- ```
-sudo apt-get update
-sudo apt-get install python3
-python /path/to/api.py
-
-```
   
 ### data_transfer_API
 The function of this API is to act as a middleman between the Android application and TensorFlow Serving. It receives a prediction request from the Android application, forwards it to TensorFlow Serving for processing, and returns the prediction results back to the Android application.
