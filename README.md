@@ -26,4 +26,14 @@ to get access to Google Maps into the Android App
 * 5. Add a marker to the map using mMap.addMarker and set its title as "My Location".
 * 6. Move the map's camera to the user's location using mMap.moveCamera with CameraUpdateFactory.newLatLngZoom to apply a zoom effect to the map.
 * 7. Provide a feature to track real-time changes in the user's location using LocationRequest and LocationCallback from Google Play Services.
-* 
+ 
+### App Deployment
+For this project deployment, i am using VM Instace as a compute engine for simple  and small configuration. It has been installed with python, Flask, and Tensorflow for process the machine learning that using TensorFlow Serving as deployment tools.
+* Command that i run for setting up the environment
+ ```
+sudo apt-get update
+sudo apt-get install python3
+python /path/to/api.py
+
+```
+  
